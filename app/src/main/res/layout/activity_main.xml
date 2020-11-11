@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/naruto_img">
+
+        <TextView
+            android:id="@+id/textViewHeader"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="814dp"
+            android:text="@string/character_Header"
+            android:textAlignment="center"
+            android:textColor="@color/header_txt"
+            android:textSize="@dimen/headersize"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnViewInfo"
+            android:layout_width="176dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="119dp"
+            android:layout_marginEnd="116dp"
+            android:layout_marginBottom="12dp"
+            android:background="@color/purple_200"
+            android:backgroundTint="@color/purple_700"
+            android:text="@string/btnViewInfo"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:cornerRadius="@dimen/cardview_default_radius" />
+
+        <ListView
+            android:id="@+id/characterList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="70dp" />
+
+    </RelativeLayout>
+</RelativeLayout>

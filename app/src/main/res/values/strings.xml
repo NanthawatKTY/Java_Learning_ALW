@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Java_Learning</string>
+    <string name="character_Header">Naruto Characters</string>
+    <string name="btnViewInfo">View Info</string>
+</resources>
