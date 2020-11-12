@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="data_naruto">
+        <item>Kakashi Hatake</item>
+        <item>Minato Namikaze</item>
+        <item>Naruto Uzumaki</item>
+        <item>Sasuke Uchiha</item>
+    </string-array>
+
+    <string-array name="data_detail">
+        <item>Kakashi Hatake</item>
+        <item>Minato Namikaze</item>
+        <item>Naruto Uzumaki</item>
+        <item>Sasuke Uchiha</item>
+    </string-array>
+</resources>
