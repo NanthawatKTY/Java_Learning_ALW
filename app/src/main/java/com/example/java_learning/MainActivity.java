@@ -60,7 +60,6 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("Detail", stringsDetail[position]);
                 intent.putExtra("Pic", intPics[position]);
                 intent.putExtra("Index", position);
-
                 startActivity(intent);
             }
         });
@@ -81,4 +80,6 @@ public class MainActivity extends AppCompatActivity {
         intentToWebInfo.setData(Uri.parse(UrlViewInfo));        //String URL uses parse()
         startActivity(intentToWebInfo);
     } // Func OpenWeb
+
+
 }
