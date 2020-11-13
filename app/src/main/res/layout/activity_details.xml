@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayoutDetail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity">
+
+    <ImageView
+        android:id="@+id/imageCharacter"
+        android:layout_width="wrap_content"
+        android:layout_height="187dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="641dp"
+        android:contentDescription="@string/todo"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="488dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="88dp"
+        android:background="#6D99CC00">
+
+        <TextView
+            android:id="@+id/textDetailPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textDetail_DetailPage"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textNameDetail"
+        android:layout_width="265dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="237dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="591dp"
+
+        android:text="@string/textName_DetailPage"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
